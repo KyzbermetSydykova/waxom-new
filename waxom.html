@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gulp Sass/Scss Compiler (autoprefix, sourcemaps, minify, file-rename, browser-sync)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/magnific.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fontello.css">
+<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800|Raleway:300,400,600,700,800" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="head">
+    <div class="container">
+    <div class="row header">
+       <div class="col-lg-3 col-md-2 col-sm-4 col-xs-7">
+        <div class="logo">
+            <a href=""><img src="images/logo.png">
+            <p>Waxom</p></a>
+        </div>
+       </div>
+        <div class="col-lg-8 col-md-8 hidden-sm hidden-xs">
+            <nav>
+                <div class="main-menu">
+            <ul class="about">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Shortcodes</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+                    <div class="mobile-menu">
+                        <a class="menu-btn" href="#">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="col-lg-1 col-md-5 col-sm-4 col-xs-3">
+<div class="icon_header">
+    <a href=""><i class="fas fa-shopping-cart"></i></a>
+    <a href=""><i class="fas fa-search"></i></a>
+</div>
+        </div>
+    </div>
+    </div>
+    </div>
+</header>
+<section id="home">
+    <div class="owl-carousel owl-theme">
+        <div class="slider" style="background: url(images/photo.png) no-repeat center"><span>Unique and Modern Design</span>
+            <h1>Portfolio PSD Template</h1>
+            <p>nam liber tempor cu soluta nobis elelFend option congue nihill imper-
+        diet doming id quod mazim placerat facer possim assum</p>
+            <a href="" class="button">Get Started</a>
+        </div>
+        <div class="slider" style="background: url(images/photo.png) no-repeat center"><span>Unique and Modern Design</span>
+            <h1>Portfolio PSD Template</h1>
+            <p>nam liber tempor cu soluta nobis elelFend option congue nihill imper-
+                diet doming id quod mazim placerat facer possim assum</p>
+            <a href="" class="button">Get Started</a>
+        </div>
+
+        <div class="slider" style="background: url(images/photo.png) no-repeat center"><span>Unique and Modern Design</span>
+            <h1>Portfolio PSD Template</h1>
+            <p>nam liber tempor cu soluta nobis elelFend option congue nihill imper-
+                diet doming id quod mazim placerat facer possim assum</p>
+            <a href="" class="button">Get Started</a>
+        </div>
+
+        <div class="slider" style="background: url(images/photo.png) no-repeat center"><span>Unique and Modern Design</span>
+            <h1>Portfolio PSD Template</h1>
+            <p>nam liber tempor cu soluta nobis elelFend option congue nihill imper-
+                diet doming id quod mazim placerat facer possim assum</p>
+            <a href="" class="button">Get Started</a>
+        </div>
+        <div class="slider" style="background: url(images/photo.png) no-repeat center"><span>Unique and Modern Design</span>
+            <h1>Portfolio PSD Template</h1>
+            <p>nam liber tempor cu soluta nobis elelFend option congue nihill imper-
+                diet doming id quod mazim placerat facer possim assum</p>
+            <a href="" class="button">Get Started</a>
+        </div>
+    </div>
+</section>
+<section id="about-us">
+    <div class="container about-us">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="about-box">
+                    <a href="" class="about-icon"><i class="icon-pencil-alt"></i>
+                    <h2>Web & App Design</h2></a>
+                    <p>Nam lieber tempor cum soluta nobis elelfent option congue nihil imperdiet doming id quod mazim.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="about-box">
+                    <a href="" class="about-icon"><i class="fas fa-clone"></i>
+                    <h2>Development</h2></a>
+                    <p>Nam lieber tempor cum soluta nobis elelfent option congue nihil imperdiet doming id quod mazim.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="about-box">
+                    <a href="" class="about-icon"><i class="fas fa-cog"></i>
+                    <h2>Customization</h2></a>
+                    <p>Nam lieber tempor cum soluta nobis elelfent option congue nihil imperdiet doming id quod mazim.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="about-box">
+                    <a href="" class="about-icon"><i class="fas fa-folder-open"></i>
+                    <h2>Marketing</h2></a>
+                    <p>Nam lieber tempor cum soluta nobis elelfent option congue nihil imperdiet doming id quod mazim.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="portfolio">
+    <div class="container">
+        <div class="portfolio">
+        <h2>Waxom is Realization of your Ideas</h2>
+        <p>Investigationes demonstraverunt lectores legere me lius quod ii legund saeplus. claritas est etiam processus dynamicus, qui secuitur mutationem consuetudiu</p>
+    </div>
+        <div class="port-img">
+            <img src="images/portfolio.jpg">
+        </div>
+    </div>
+</section>
+<section id="features theme">
+    <div class="container">
+    <div class="project">
+        <div class="text">
+        <h2><span>Waxom</span> MultiPurpose WordPress Theme</h2>
+    <p>Don't forget to rate the Tamplate. Thanks so much!</p>
+        </div>
+    <a href="" class="value">Purchase Now</a>
+    </div>
+    </div>
+</section>
+<section id="features">
+    <div class="container">
+  <div class="feat-text"> <h1>Our Latest Projects.</h1>
+    <p>Investigationes demonstraverunt lectores legere me lius quod ii legun saepius. Claritas est etiam processus dynamicus. qui sequitur mutationem consuetudium.</p>
+  </div>
+        <div class="myProject">
+            <input id="tab1" type="radio" name="tabs" checked>
+            <label for="tab1">All</label>
+            <input id="tab2" type="radio" name="tabs">
+            <label for="tab2">Web Design</label>
+            <input id="tab3" type="radio" name="tabs">
+            <label for="tab3">Mobile App</label>
+            <input id="tab4" type="radio" name="tabs">
+            <label for="tab4">Illustration</label>
+            <input id="tab5" type="radio" name="tabs">
+            <label for="tab5">Photography</label>
+            <section id="content1">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/1.png) no-repeat center">
+                                <div class="bg-photo">
+                                </div>
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/2.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/3.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/4.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/5.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/6.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section id="content2">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/4.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/5.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/6.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section id="content3">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/1.png) no-repeat center">
+                                <div class="bg-photo">
+                                </div>
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/2.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/3.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/4.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/5.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/6.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section id="content4">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/4.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/5.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/6.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section id="content5">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/1.png) no-repeat center">
+                                <div class="bg-photo">
+                                </div>
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/2.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/3.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/4.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/5.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="block">
+                            <div class="block-img" style="background: url(images/6.png) no-repeat center">
+                            </div>
+                            <div class="block-icon">
+                                <i class="fas fa-link"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="block-content">
+                                <h1>Claritas Etiam Processus</h1>
+                                <p>Photography, Nature</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+        <a href="" class="feat-btn">Load More</a>
+    </div>
+</section>
+<section id="video">
+    <div class="video-text" style="background: url(images/video-photo.png) no-repeat center">
+        <div id="text-popup" class="white-popup mfp-hide">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/SLp7G8dYRlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      <div class="popup-text"> <div class="video-popup">
+            <a href="#text-popup" class="popup-content">
+            <img src="images/icon-play.png" alt=""></a>
+        </div>
+        <h2>Waxom Video Presentation</h2>
+        <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur matationem consuetudium</p><br><br>
+        <span>03.26</span></div>
+    </div>
+</section>
+<section id="devices">
+    <div class="container dev-cont">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-12">
+                <div class="phone">
+                    <img src="images/iPhone.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12">
+                <div class="devices">
+                    <h2>Excellent for Mobile Devices.</h2>
+                    <p>Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                        aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius
+                        quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant
+                        sollemnes in futurum.</p>
+                    <ul>
+                        <li><i class="fas fa-chevron-circle-right"></i><span>Nam liber tempor cum soluta nobis eleifend option;</span>
+                        </li>
+                        <li><i class="fas fa-chevron-circle-right"></i><span>Option congue nihil imperdiet doming id quod mazim placerat facer;</span>
+                        </li>
+                        <li><i class="fas fa-chevron-circle-right"></i><span>Eodem modo typi, qui nunc nobis videntur parum futurum;</span>
+                        </li>
+                        <li><i class="fas fa-chevron-circle-right"></i><span>Investigationes demonstraverunt lectores</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    </div>
+</section>
+<section id="blog">
+        <div class="blog">
+            <div class="container">
+                <div class="blog-content">
+                    <div class="review">
+                        <i class="far fa-user"></i>
+                        <h2>3587</h2>
+                        <p>Satisfied Clients</p>
+                    </div>
+                    <div class="review">
+                        <span><i class="fas fa-mug-hot"></i></span>
+                        <h2>207</h2>
+                        <p>Cups of coffee</p>
+                    </div>
+                    <div class="review">
+                        <span><i class="far fa-comment-dots"></i></span>
+                        <h2>2500</h2>
+                        <p>Blog posts</p>
+                    </div>
+                    <div class="review">
+                        <span><i class="far fa-heart"></i></span>
+                        <h2>3587</h2>
+                        <p>Likes</p>
+                    </div>
+                    <div class="review">
+                        <span><i class="fas fa-concierge-bell"></i></span>
+                        <h2>900</h2>
+                        <p>We launched</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<section id="pricing">
+    <div class="container">
+       <div class="post"><h2>Recent Posts.</h2>
+        <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est<br> etiam
+            processus dynamicus, qui sequitur mutationem consuetudium.</p></div>
+        <div class="owl-carousel owl-carousel-custom">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="pricing-post">
+                        <div class="post-date">
+                            <h1>31</h1>
+                            <h2>Sep.</h2>
+                        </div>
+                        <div class="post-img" style="background: url(images/post1.jpg) no-repeat center">
+                            <div class="post-block">
+                            </div>
+                        </div>
+                        <div class="posts-content">
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <h2>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</h2>
+                            <a href="#">Read More<i class="fas fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="pricing-post">
+                        <div class="post-date">
+                            <h1>31</h1>
+                            <h2>Sep.</h2>
+                        </div>
+                        <div class="post-img" style="background: url(images/post2.jpg) no-repeat center">
+                            <div class="post-block">
+                            </div>
+                        </div>
+                        <div class="posts-content">
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <h2>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</h2>
+                            <a href="#">Read More<i class="fas fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="pricing-post">
+                        <div class="post-date">
+                            <h1>31</h1>
+                            <h2>Sep.</h2>
+                        </div>
+                        <div class="post-img" style="background: url(images/post3.jpg) no-repeat center">
+                            <div class="post-block">
+                            </div>
+                        </div>
+                        <div class="posts-content">
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <h2>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</h2>
+                            <a href="#">Read More<i class="fas fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="pricing-post">
+                        <div class="post-date">
+                            <h1>31</h1>
+                            <h2>Sep.</h2>
+                        </div>
+                        <div class="post-img" style="background: url(images/post1.jpg) no-repeat center">
+                            <div class="post-block">
+                            </div>
+                        </div>
+                        <div class="posts-content">
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <h2>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</h2>
+                            <a href="#">Read More<i class="fas fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="pricing-post">
+                        <div class="post-date">
+                            <h1>31</h1>
+                            <h2>Sep.</h2>
+                        </div>
+                        <div class="post-img" style="background: url(images/post2.jpg) no-repeat center">
+                            <div class="post-block">
+                            </div>
+                        </div>
+                        <div class="posts-content">
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <h2>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</h2>
+                            <a href="#">Read More<i class="fas fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="pricing-post">
+                        <div class="post-date">
+                            <h1>31</h1>
+                            <h2>Sep.</h2>
+                        </div>
+                        <div class="post-img" style="background: url(images/post3.jpg) no-repeat center">
+                            <div class="post-block">
+                            </div>
+                        </div>
+                        <div class="posts-content">
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <h2>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</h2>
+                            <a href="#">Read More<i class="fas fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="pricing-post">
+                        <div class="post-date">
+                            <h1>31</h1>
+                            <h2>Sep.</h2>
+                        </div>
+                        <div class="post-img" style="background: url(images/post1.jpg) no-repeat center">
+                            <div class="post-block">
+                            </div>
+                        </div>
+                        <div class="posts-content">
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <h2>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</h2>
+                            <a href="#">Read More<i class="fas fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="pricing-post">
+                        <div class="post-date">
+                            <h1>31</h1>
+                            <h2>Sep.</h2>
+                        </div>
+                        <div class="post-img" style="background: url(images/post2.jpg) no-repeat center">
+                            <div class="post-block">
+                            </div>
+                        </div>
+                        <div class="posts-content">
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <h2>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</h2>
+                            <a href="#">Read More<i class="fas fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="pricing-post">
+                        <div class="post-date">
+                            <h1>31</h1>
+                            <h2>Sep.</h2>
+                        </div>
+                        <div class="post-img" style="background: url(images/post3.jpg) no-repeat center">
+                            <div class="post-block">
+                            </div>
+                        </div>
+                        <div class="posts-content">
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                            <h2>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</h2>
+                            <a href="#">Read More<i class="fas fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-icon"> <i class="fas fa-chevron-circle-left"></i> <i class="fas fa-chevron-circle-right"></i></div>
+        </div>
+    </div>
+</section>
+<section id="shortcodes" >
+    <div class="shortcodes_content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="div-icon"><img src="images/logo1.png"></div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="div-icon"><img src="images/logo2.png"></div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="div-icon"><img src="images/logo3.png"></div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="div-icon"><img src="images/short4.png"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 ">
+                <div class="contact-waxom">
+                    <div class="contact-logo">
+                        <a href="#"><img src="images/logo.png"></a>
+                        <a href="#"><h1>Waxom</h1></a>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+                    <h2><a href="#">Read More<i class="fas fa-caret-right"></i></a></h2>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="recent">
+                    <h1>Recent Posts</h1>
+                    <div class="recent_first">
+                        <a href="#"><h2>September 08, 2015</h2>
+                            <p>Lorem ipsum dolor sit amet,consect- <br>etuer adipiscing elit</p>
+                        </a>
+                    </div>
+                    <div class="recent_first">
+                        <a href="#"> <h2>September 08, 2015</h2>
+                            <p>Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+                        </a></div>
+                    <div class="recent_first">
+                        <a href="#"> <h2>September 08, 2015</h2>
+                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="twitter">
+                    <h1>Our Twitter</h1>
+                    <div class="twitter_first">
+                        <p><a href="#"> @waxom</a> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+                        <h2>3 mins ago</h2>
+                    </div>
+                    <div class="twitter_first">
+                        <p>Mirum est <a href="#"> #envato </a> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+                        <h2>5 hours ago</h2>
+                    </div>
+                    <div class="twitter_first">
+                        <p>Soluta nobis option bit.ly/1Hniso7</p>
+                        <h2>20 days ago</h2>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="dribble">
+                    <h1>Dribbble Widget</h1>
+                    <div class="dribble-content">
+                        <div class="dribble-img"> <a href="#"> <img src="images/photo1.png"></a></div>
+                        <div class="dribble-img"> <a href="#"> <img src="images/photo2.png"></a></div>
+                        <div class="dribble-img"> <a href="#"> <img src="images/photo3.png"></a></div>
+                        <div class="dribble-img"> <a href="#"> <img src="images/photo4.png"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <ul class="footer-left">
+                <li>Copyright © 2015 <h3>Waxom</h3></li>
+                <li>|  <span> Privacy Policy</span></li>
+                <li>|  <span> FAQ </span></li>
+                <li>| <span>Support</span></li>
+            </ul>
+            <ul class="footer-right">
+                <li>Designed by <h3>ThemeFire</h3></li>
+                <li>|Only on <h3>Envato Market</h3></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="js/magnific.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+            items: 1,
+            dots: true,
+            nav:true
+        });
+    });
+    jQuery(document).ready(function($) {
+        $('.popup-content').magnificPopup({
+            type: 'inline'
+        });
+    });
+</script>
+
+</body>
+</html>

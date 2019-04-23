@@ -1,0 +1,14 @@
+
+.owl-dot{
+    height: 10px;
+    width: 10px;
+    background: #3e3e3e !important;
+
+}
+.owl-dots{
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.owl-dot:not(:last-child){
+    margin-right: 2px;
+}
